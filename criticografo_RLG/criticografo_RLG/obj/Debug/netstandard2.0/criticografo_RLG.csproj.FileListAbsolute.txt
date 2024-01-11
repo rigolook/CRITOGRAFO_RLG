@@ -1,0 +1,15 @@
+C:\Users\CD16\source\repos\criticografo_RLG\criticografo_RLG\criticografo_RLG\bin\Debug\netstandard2.0\criticografo_RLG.deps.json
+C:\Users\CD16\source\repos\criticografo_RLG\criticografo_RLG\criticografo_RLG\bin\Debug\netstandard2.0\criticografo_RLG.dll
+C:\Users\CD16\source\repos\criticografo_RLG\criticografo_RLG\criticografo_RLG\bin\Debug\netstandard2.0\criticografo_RLG.pdb
+C:\Users\CD16\source\repos\criticografo_RLG\criticografo_RLG\criticografo_RLG\obj\Debug\netstandard2.0\criticografo_RLG.csproj.AssemblyReference.cache
+C:\Users\CD16\source\repos\criticografo_RLG\criticografo_RLG\criticografo_RLG\obj\Debug\netstandard2.0\criticografo_RLG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CD16\source\repos\criticografo_RLG\criticografo_RLG\criticografo_RLG\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\CD16\source\repos\criticografo_RLG\criticografo_RLG\criticografo_RLG\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\CD16\source\repos\criticografo_RLG\criticografo_RLG\criticografo_RLG\obj\Debug\netstandard2.0\criticografo_RLG.AssemblyInfoInputs.cache
+C:\Users\CD16\source\repos\criticografo_RLG\criticografo_RLG\criticografo_RLG\obj\Debug\netstandard2.0\criticografo_RLG.AssemblyInfo.cs
+C:\Users\CD16\source\repos\criticografo_RLG\criticografo_RLG\criticografo_RLG\obj\Debug\netstandard2.0\criticografo_RLG.csproj.CoreCompileInputs.cache
+C:\Users\CD16\source\repos\criticografo_RLG\criticografo_RLG\criticografo_RLG\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\CD16\source\repos\criticografo_RLG\criticografo_RLG\criticografo_RLG\obj\Debug\netstandard2.0\criticografo_RLG.dll
+C:\Users\CD16\source\repos\criticografo_RLG\criticografo_RLG\criticografo_RLG\obj\Debug\netstandard2.0\refint\criticografo_RLG.dll
+C:\Users\CD16\source\repos\criticografo_RLG\criticografo_RLG\criticografo_RLG\obj\Debug\netstandard2.0\criticografo_RLG.pdb
+C:\Users\CD16\source\repos\criticografo_RLG\criticografo_RLG\criticografo_RLG\obj\Debug\netstandard2.0\ref\criticografo_RLG.dll

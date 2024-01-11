@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:magic="clr-namespace:MagicGradients;assembly=MagicGradients"
+             x:Class="criticografo_RLG.MainPage"
+             >
+    <Grid>
+        <magic:GradientGLView VerticalOptions="FillAndExpand">
+            <magic:GradientGLView.GradientSource>
+                <magic:LinearGradient Angle="353">
+                    <magic:GradientStop Color="#020024" Offset="0"/>
+                    <magic:GradientStop Color="#1206ff" Offset=".14"/>
+                    <magic:GradientStop Color="#1296a8" Offset=".52"/>
+                    <magic:GradientStop Color="#020024" Offset=".76"/>
+                </magic:LinearGradient>
+            </magic:GradientGLView.GradientSource>
+        </magic:GradientGLView>
+        <StackLayout class="todo">
+        <Frame BackgroundColor="Transparent" Padding="24" CornerRadius="0" BorderColor="Black" >
+            <Label Text="Actividad: 'CRITICOGRAFO' RLG" HorizontalTextAlignment="Center" TextColor="White" FontSize="23"/>
+        </Frame>
+
+        <Label Text="Nombre:" FontSize="15" FontAttributes="None" TextColor="White" Padding="30,20,0,0"/>
+            <Entry x:Name="entryName" TextColor="White" BackgroundColor="Transparent"  Margin="20,0,20,0" Placeholder="Nombre aqui" PlaceholderColor="#0f4"/>
+
+            <Label Text="Genero:" FontSize="15" FontAttributes="None" TextColor="White" Padding="30,20,0,0"/>
+        <Grid>
+                <RadioButton x:Name="hombre"  Content="Hombre" Grid.Column="0" Margin="15,5,0,0"/>
+                <RadioButton x:Name="mujer"  Content="Mujer" Grid.Column="1"/>
+        </Grid>
+        <Grid Margin="30,20,10,10">
+                <CheckBox x:Name="Feo" Grid.Column="0" Grid.Row="0" Color="Gold"/>
+                <Label Text="Feo(a)" Margin="30,5,0,0" Grid.Column="0" Grid.Row="0" TextColor="White"/>
+                <CheckBox x:Name="Hermoso" Grid.Column="1" Grid.Row="1"/>
+                <Label Text="Hermoso(a)" Margin="30,5,0,0" Grid.Column="1" Grid.Row="1" TextColor="White"/>
+                <CheckBox x:Name="alto" Grid.Column="0" Grid.Row="2" />
+                <Label Text="Alto(a)" Margin="30,5,0,0" Grid.Column="0" Grid.Row="2" TextColor="White"/>
+                <CheckBox x:Name="bajo" Grid.Column="1" Grid.Row="0"/>
+                <Label Text="Bajo(a)" Margin="30,5,0,0" Grid.Column="1" Grid.Row="0" TextColor="White"/>
+                <CheckBox x:Name="listo" Grid.Column="0"  Grid.Row="1"/>
+                <Label Text="Listo(a)" Margin="30,5,0,0" Grid.Column="0"  Grid.Row="1" TextColor="White"/>
+                <CheckBox  x:Name="tonto" Grid.Column="1" Grid.Row="2"/>
+                <Label Text="Tonto(a)" Margin="30,5,0,0" Grid.Column="1" Grid.Row="2" TextColor="White"/>
+        </Grid>
+        <Button x:Name="criticar"
+            Text="CRITICAR" FontAttributes="Bold" 
+                FontSize="30" Padding="0,5,0,5" 
+                Margin="23,13,23,13" BorderColor="Black" BorderWidth="1" Clicked="criticar_Clicked"/>
+            <Frame BackgroundColor="Black" BorderColor="White" Margin="25" >
+            <Editor TextColor="MediumVioletRed" Placeholder="Resultado" 
+                    PlaceholderColor="DarkViolet" Background="white" Margin="20,0,20,120" 
+                    AutoSize="TextChanges"
+                    x:Name="cuadro"/>
+        </Frame>
+    </StackLayout>
+    </Grid>
+</ContentPage>
